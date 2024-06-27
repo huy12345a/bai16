@@ -10,7 +10,7 @@ public class Test {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the name of the file: ");
         String fileName = scanner.nextLine();
-        System.out.println("Enter the size of the file out: ");
+        System.out.println(" Enter the size of the file out: ");
         String fileOut = scanner.nextLine();
         List<String> list = copyFileText.readFile(fileName);
         try {
